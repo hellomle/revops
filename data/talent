@@ -1,0 +1,257 @@
+name,category,categoryOrg,categoryStyle,categorySub,accountStatus,isAvailable,isLive,onboardingStatus,price,createdDate,allBookings,paidBookings,paidRevenue,grossRevenue,compedBookings,uniqueGuests,firstBooking,lastBooking
+Ace Von Johnson,Music,Guitar,"Rock, Metal",Guitar,active,no,yes,completed,90,2023-06-08,6,6,420,420,0,5,2023-09-04,2023-12-10
+Adam Nergal Darski,Music,"Guitar, Vocal","Metal, Country","Guitar, Vocals",active,no,yes,completed,100,2025-01-30,6,4,400,600,2,4,2025-03-24,2025-03-24
+Adam Slack,Music,The Struts,Rock,Guitar,active,no,yes,completed,100,2024-02-08,6,6,680,680,0,5,2024-03-07,2024-12-07
+Alan Cassidy,Music,"The Black Dahlia Murder, Slugdge",Metal,Drums,active,no,yes,completed,50,2025-03-18,2,2,100,100,0,2,2025-04-03,2025-04-05
+Alejandro Aranda,Music,Scarypoolparty,"Rock, Metal","Guitar, Vocals, Keys",active,no,yes,completed,115,2025-06-26,2,2,230,230,0,2,2025-07-21,2025-07-25
+Alex Bent,Music,Trivium,Metal,Drums,active,no,yes,completed,70,2024-02-02,0,0,0,0,0,0,,
+Alex Skolnick,Music,Testament,"Rock, Metal",Guitar,active,yes,yes,completed,80,2023-06-07,29,26,2105,2365,3,19,2023-09-13,2026-03-12
+Alice Glass,Music,Solo Artist,Rock,Vocals,active,no,yes,inProgress,75,2023-06-20,0,0,0,0,0,0,,
+Alice Lane,Music,Infected Rain,Metal,Bass,active,no,yes,completed,50,2024-04-12,8,4,200,400,4,7,2024-07-08,2025-06-21
+Alyssa Day,Music,"BLUE MEDUSA, Absentia, The Iron Maidens",Metal,Guitar,active,no,yes,completed,80,2025-02-27,0,0,0,0,0,0,,
+Amos Heller,Music,Taylor Swift,Other,Bass,active,no,yes,completed,150,2023-12-04,10,8,1300,1550,2,9,2023-12-19,2024-01-24
+Andre Nieri,Music,Solo Artist,"Rock, Jazz",Guitar,active,no,yes,completed,50,2024-12-03,0,0,0,0,0,0,,
+Andrea Ferro,Music,Lacuna Coil,Metal,Vocals,active,no,yes,completed,55,2024-12-24,0,0,0,0,0,0,,
+Andreas Kisser,Music,Sepultura,Metal,Guitar,active,no,yes,completed,100,2024-01-23,1,0,0,130,1,1,2024-05-24,2024-05-24
+Andy James,Music,Five Finger Death Punch,Metal,Guitar,active,no,yes,completed,125,2023-12-01,10,7,675,950,3,9,2024-01-27,2024-03-09
+Audra Miller,Music,First To Eleven,Other,Vocals,active,no,no,inProgress,0,2024-03-12,0,0,0,0,0,0,,
+Austin Carlile,Music,Solo Artist,Metal,Vocals,active,no,yes,completed,75,2024-11-14,2,1,75,150,1,1,2025-07-26,2025-07-26
+Baard Kolstad,Music,Leprous,Metal,Drums,active,no,no,inProgress,0,2024-11-20,0,0,0,0,0,0,,
+Bella Perron,Music,Artist,Rock,Guitar,active,no,yes,completed,50,2025-03-04,12,8,400,600,4,6,2025-03-30,2026-02-14
+Ben Adams,Music,"a1, Subwoolfer",Other,Vocals,active,no,yes,completed,100,2025-03-04,9,7,700,900,2,7,2025-05-19,2025-08-20
+Bill Kelliher,Music,Mastodon,Metal,Guitar,active,no,no,inProgress,0,2023-12-20,0,0,0,0,0,0,,
+Brad Corrigan,Music,Solo Artist,Rock,"Guitar, Drums, Vocals",active,no,no,inProgress,0,2025-04-15,0,0,0,0,0,0,,
+Brandon Saller,Music,Atreyu,"Rock, Metal","Vocals, Drums",active,yes,yes,completed,125,2024-01-23,6,2,300,830,4,6,2024-01-31,2024-08-10
+Brian Craddock,Music,Daughtry,Rock,"Guitar, Vocals",active,no,yes,completed,45,2024-05-08,5,5,225,225,0,5,2025-08-12,2025-08-12
+Brian Fair,Music,Shadows Fall,Metal,Vocals,active,no,yes,completed,50,2025-03-05,2,2,100,100,0,2,2025-10-18,2025-10-26
+Brian Logan Dales,Music,The Summer Set,Rock,Vocals,active,no,yes,completed,75,2025-05-01,1,1,75,75,0,1,2025-05-29,2025-05-29
+Brian Tichy,Music,Solo Artist,"Rock, Metal","Guitar, Drums",active,no,yes,completed,95,2024-12-19,1,1,95,95,0,1,2025-02-01,2025-02-01
+Britt Lightning,Music,Vixen,"Rock, Metal",Guitar,active,yes,yes,completed,60,2024-01-23,24,18,900,1210,6,5,2024-02-08,2025-12-13
+Cameron Losch,Music,Born of Osiris,Metal,"Guitar, Drums, Keys",notActive,no,yes,completed,50,2025-03-27,0,0,0,0,0,0,,
+Cappadonna,Music,Wu-Tang Clan,Hip Hop,Vocals,active,no,no,inProgress,0,2024-02-05,0,0,0,0,0,0,,
+Cassadee Pope,Music,Solo Artist,Rock,Vocals,active,no,yes,completed,150,2024-02-12,5,3,450,800,2,3,2024-03-22,2025-11-20
+Chris Daughtry,Music,Daughtry,Rock,Vocals,active,no,yes,completed,300,2024-02-08,30,28,8500,9150,2,17,2024-03-08,2025-01-24
+Chris DeMakes,Music,Less Than Jake,Rock,"Guitar, Vocals",active,no,yes,completed,60,2024-12-05,0,0,0,0,0,0,,
+Chris Kael,Music,Five Finger Death Punch,Metal,Bass,active,no,yes,completed,175,2024-02-02,8,4,580,1080,4,8,2024-02-13,2024-02-23
+Chris Kamrada,Music,Dashboard Confessional,Rock,Drums,active,no,no,inProgress,0,2024-12-17,0,0,0,0,0,0,,
+Christian Ingebrigtsen,Music,a1,"Rock, Other","Guitar, Vocals, Keys",active,no,yes,completed,100,2025-08-05,2,1,100,200,1,1,2025-08-21,2025-08-21
+Christian Olde Wolbers,Music,"Cypress Hill, Fear Factory (fmr.)","Metal, Hip Hop","Bass, Vocals",active,no,yes,completed,75,2023-06-08,2,2,115,115,0,1,2024-03-10,2024-12-16
+Chuck Billy,Music,Testament,Metal,Vocals,active,no,yes,completed,80,2024-12-05,8,7,560,640,1,4,2025-02-23,2025-09-09
+Cole Rolland,Music,Solo Artist,"Rock, Metal, Other","Guitar, Vocals",active,no,yes,completed,75,2025-05-01,0,0,0,0,0,0,,
+Dan Jacobs,Music,Atreyu,Metal,Guitar,active,no,yes,completed,50,2025-04-03,1,1,50,50,0,1,2025-04-26,2025-04-26
+Dan Kanter,Music,"MD Justin Bieber, Ariana Grade",Rock,"Guitar, Keys",active,no,no,inProgress,0,2023-07-12,0,0,0,0,0,0,,
+Dan Sugarman,Music,"Ice Nine Kills, Fallen Figure",Metal,Guitar,active,no,yes,completed,71,2023-08-22,9,8,443,493,1,9,2023-09-16,2024-03-28
+Danny Brown,Music,Solo Artist,Hip Hop,Vocals,active,no,no,inProgress,0,2025-03-11,0,0,0,0,0,0,,
+Danny Case,Music,From Ashes To New,Metal,Vocals,active,no,no,inProgress,0,2024-10-10,0,0,0,0,0,0,,
+Dave Baksh,Music,Sum 41,Rock,"Guitar, Vocals",active,no,yes,completed,75,2023-06-08,31,30,1250,1310,1,23,2023-08-31,2025-01-02
+Dave Lombardo,Music,Solo Artist,"Rock, Metal",Drums,active,no,yes,completed,200,2025-06-16,7,6,1100,1250,1,6,2025-10-18,2026-01-06
+David Ellefson,Music,Solo Artist,"Rock, Metal",Bass,active,no,yes,completed,125,2025-03-11,1,1,125,125,0,1,2025-05-09,2025-05-09
+Deen Castronovo,Music,Journey,Rock,Drums,active,no,yes,completed,100,2024-02-01,61,58,6180,6480,3,42,2024-02-04,2026-06-01
+Devin Nickles,Music,Butcher Babies,Metal,Drums,active,no,yes,inProgress,50,2024-11-15,0,0,0,0,0,0,,
+Dino Jelusick,Music,Trans-Siberian Orchestra,"Rock, Metal",Vocals,active,no,no,inProgress,0,2023-11-24,0,0,0,0,0,0,,
+Dizzy Reed,Music,Guns N' Roses,Rock,"Vocals, Keys",active,no,yes,completed,160,2023-06-08,10,5,855,1925,5,9,2024-02-28,2026-02-12
+DJ Yella,Music,N.W.A,Hip Hop,"Vocals, DJ",active,no,yes,completed,150,2024-08-27,0,0,0,0,0,0,,
+DreamDoll,Music,Solo Artist,Hip Hop,Vocals,active,no,no,inProgress,0,2024-01-22,0,0,0,0,0,0,,
+Dylan Ford,Music,Solo Artist,Other,"Guitar, Vocals, DJ",active,no,no,inProgress,0,2025-05-12,0,0,0,0,0,0,,
+Edwin Honoret,Music,Solo Artist,Other,Vocals,active,no,no,inProgress,0,2025-03-05,0,0,0,0,0,0,,
+Eric Krasno,Music,Solo Artist,Rock,"Guitar, Vocals",active,no,yes,completed,100,2023-11-27,0,0,0,0,0,0,,
+Eric Morotti,Music,Suffocation,Metal,Drums,active,no,yes,completed,35,2025-01-15,0,0,0,0,0,0,,
+Esmée van Sinderen,Music,"Solo Artist, ex-Cobra Spell, Session Musician","Rock, Metal",Guitar,active,yes,yes,completed,50,2025-09-12,0,0,0,0,0,0,,
+Eva Gardner,Music,"The Mars Volta, P!nk",Rock,Bass,active,yes,yes,completed,50,2025-02-11,5,4,200,250,1,4,2025-03-15,2026-03-03
+Evan Stanley,Music,Amber Wild,Rock,"Guitar, Vocals",active,no,yes,completed,65,2024-01-18,1,1,75,75,0,1,2024-02-16,2024-02-16
+Felipe Andreoli,Music,Angra,Metal,Bass,active,no,yes,completed,80,2024-01-24,0,0,0,0,0,0,,
+Gabe Barham,Music,Sleeping With Sirens (fmr.),Rock,Drums,active,no,yes,completed,70,2024-01-04,1,0,0,100,1,1,2024-02-20,2024-02-20
+Gary Holt,Music,"Slayer, Exodus","Rock, Metal",Guitar,active,no,yes,completed,100,2023-06-20,39,27,3275,4675,12,20,2023-09-04,2025-01-21
+Gene Hoglan,Music,"Dark Angel, DTA",Metal,Drums,active,no,yes,completed,100,2025-05-09,0,0,0,0,0,0,,
+Gilby Clarke,Music,Guns N' Roses,Rock,Guitar,active,no,yes,completed,300,2023-07-10,0,0,0,0,0,0,,
+Grant Fisher,Music,Solo Artist,Other,DJ,active,no,yes,completed,90,2025-05-06,0,0,0,0,0,0,,
+Greg Howe,Music,Solo Artist,"Rock, Metal",Guitar,active,no,yes,completed,150,2023-07-10,9,2,300,1500,7,8,2024-02-15,2024-08-04
+Greg Phillinganes,Music,"Stevie Wonder, John Mayer, Michael Jackson","Rock, Jazz","Vocals, Keys",active,no,yes,completed,125,2023-06-08,32,27,3675,4350,5,24,2023-12-21,2026-03-19
+Helena Kotina,Music,Nervosa,Metal,Guitar,active,no,yes,completed,40,2023-10-24,2,2,70,70,0,2,2024-10-30,2024-10-30
+Izzy Fontaine,Music,Solo Artist,Rock,Guitar,active,no,yes,completed,50,2025-05-06,0,0,0,0,0,0,,
+Jamie Mathias,Music,Bullet for My Valentine,Metal,"Bass, Vocals",active,no,yes,completed,60,2024-01-31,3,1,30,135,2,3,2024-02-14,2024-03-11
+Jarobi White,Music,A Tribe Called Quest,Hip Hop,Vocals,active,no,yes,completed,90,2023-08-21,2,1,90,180,1,1,2026-01-09,2026-01-09
+Jarred Pope,Music,"Brother Cane, Tom Keifer Band, Don Felder",Rock,Drums,active,no,yes,completed,50,2025-08-18,0,0,0,0,0,0,,
+Jasin Todd,Music,"Maylene and the Sons of Disaster, Shinedown (fmr.)","Rock, Metal",Guitar,active,no,yes,completed,45,2025-08-18,5,5,225,225,0,4,2025-09-06,2025-12-20
+Jason Bittner,Music,"Shadows Fall, Category 7, Overkill (fmr.)",Metal,Drums,active,no,yes,completed,50,2025-09-26,1,1,50,50,0,1,2025-10-22,2025-10-22
+Jed Elliott,Music,The Struts,Rock,Bass,active,no,yes,completed,125,2023-06-12,17,11,1660,2620,6,14,2023-09-22,2025-06-08
+Jennifer Batten,Music,"Jeff Beck, Michael Jackson",Rock,Guitar,active,no,yes,completed,50,2023-08-14,12,9,440,590,3,9,2023-10-21,2025-07-20
+Jesse Leach,Music,Killswitch Engage,Metal,Vocals,active,no,yes,completed,120,2023-08-21,32,28,4350,5220,4,24,2024-01-03,2026-05-28
+Jessica Pimentel,Music,Brujeria ,Metal,Vocals,active,no,yes,completed,60,2024-02-21,6,4,220,340,0,5,2024-05-09,2026-03-21
+Jocke Wallgren,Music,Amon Amarth,Metal,Drums,active,no,no,inProgress,0,2024-12-10,0,0,0,0,0,0,,
+Joe Lynn Turner,Music,Solo Artist,"Rock, Metal","Guitar, Vocals",active,no,yes,completed,75,2025-02-24,7,5,375,525,2,5,2025-05-10,2026-02-17
+Joel Hoekstra,Music,Whitesnake,"Rock, Metal",Guitar,active,no,yes,completed,60,2024-01-24,31,30,1770,1830,1,18,2024-02-21,2026-02-10
+Joey Belladonna,Music,"Anthrax, Belladonna, Beyond Frontiers, Chief Big Way",Metal,"Drums, Vocals",active,no,yes,completed,100,2025-04-28,0,0,0,0,0,0,,
+Joey Bradford,Music,The Used,Other,Guitar,active,no,yes,completed,200,2024-01-03,0,0,0,0,0,0,,
+John Matos,Music,Abiotic,Metal,Guitar,active,no,yes,completed,80,2025-02-24,0,0,0,0,0,0,,
+John Patitucci,Music,"Wayne Shorter, Chick Corea, Herbie Hancock",Jazz,Bass,active,no,yes,completed,100,2023-06-08,11,8,850,1175,3,9,2023-09-28,2026-03-18
+John Tempesta,Music,The Cult,"Rock, Metal",Drums,active,no,yes,completed,60,2025-02-06,4,3,180,240,1,1,2025-10-02,2025-10-02
+Jonathan Moffett,Music,"Michael Jackson, Madonna",Rock,Drums,active,no,yes,inProgress,100,2023-07-20,0,0,0,0,0,0,,
+Jonny Hawkins,Music,Nothing More,"Rock, Metal",Vocals,active,no,yes,completed,160,2023-06-08,60,42,6205,9085,18,44,2024-01-09,2026-04-25
+Jordan Ziff,Music,RATT (fmr.),"Rock, Metal",Guitar,active,no,yes,completed,45,2025-02-07,0,0,0,0,0,0,,
+Josh Balz,Music,Solo Artist,Metal,Keys,active,no,yes,completed,60,2025-03-11,0,0,0,0,0,0,,
+Josh Devine,Music,"One Direction, Seaforth",Rock,Drums,active,no,yes,completed,100,2025-03-24,0,0,0,0,0,0,,
+Josh Paul,Music,Solo Artist,Rock,Bass,active,no,no,inProgress,0,2024-02-05,0,0,0,0,0,0,,
+J-Rod Sullivan,Music,Drums,Jazz,Drums,active,no,yes,completed,75,2023-11-27,0,0,0,0,0,0,,
+Jude Smith,Music,Solo Artist,Other,"Guitar, Vocals",active,no,yes,completed,50,2025-01-20,0,0,0,0,0,0,,
+Kelsy Karter,Music,Kelsy Karter & The Heroines,Rock,"Guitar, Vocals",active,no,yes,completed,115,2024-02-12,9,5,590,1060,4,4,2024-05-07,2025-09-14
+Ken Fereday,Music,K.F.J.,Rock,"Guitar, Vocals",active,no,yes,completed,60,2025-02-21,0,0,0,0,0,0,,
+Kiki Wong,Music,The Smashing Pumpkins,"Rock, Metal",Guitar,active,no,yes,completed,130,2024-12-19,6,3,410,860,3,5,2025-03-01,2025-11-26
+LÃ˜LÃ˜,Music,Solo Artist,Rock,Vocals,active,yes,yes,completed,95,2024-02-13,54,45,4320,5160,6,28,2024-02-26,2026-06-11
+Laura Guldemond,Music,Burning Witches,Metal,Vocals,active,yes,yes,completed,88,2025-03-03,14,14,1232,1232,0,8,2025-08-27,2026-06-24
+Lena Scissorhands,Music,Infected Rain,Metal,Vocals,active,no,yes,completed,90,2024-04-06,23,18,1662,2112,5,15,2024-05-04,2025-08-09
+Lilith Czar,Music,Solo Artist,Rock,Vocals,active,no,yes,completed,90,2024-07-02,39,39,3180,3180,0,22,2024-10-05,2025-04-19
+Loida Liuzzi,Music,Solo Artist,"Rock, Metal",Guitar,active,no,yes,completed,45,2025-03-05,0,0,0,0,0,0,,
+Lonny Eagleton,Music,Black Veil Brides,"Rock, Metal","Guitar, Bass",active,no,yes,completed,35,2023-06-07,7,7,235,235,0,3,2024-03-08,2024-07-25
+Lorraine Lewis,Music,"Vixen (fmr.), Femme Fatale, MCA Recording Artist",Rock,Vocals,active,no,yes,completed,50,2024-02-12,7,6,270,320,1,4,2024-02-23,2026-01-27
+Luke Spiller,Music,"Luke Spiller, The Struts ","Rock, Other",Vocals,active,no,yes,completed,120,2024-01-18,51,47,5740,6225,4,29,2024-01-24,2024-08-19
+Marc Hudson,Music,DragonForce,Metal,Vocals,active,no,yes,completed,75,2024-08-30,1,1,75,75,0,1,2025-11-14,2025-11-14
+Marc Lopes,Music,"Metal Church,  Ross The Boss",Metal,Vocals,active,no,yes,completed,75,2024-02-28,2,1,75,150,1,1,2026-04-24,2026-04-24
+Mark Read,Music,a1,Other,"Vocals, Keys",active,no,yes,completed,80,2025-08-05,14,12,915,1075,0,9,2025-09-20,2026-03-07
+Mark Vollelunga,Music,Nothing More,Metal,Guitar,active,no,no,inProgress,0,2024-04-12,0,0,0,0,0,0,,
+Marty Friedman,Music,Solo Artist,Metal,Guitar,active,no,yes,completed,175,2023-06-07,31,20,3260,4735,11,20,2023-08-30,2026-05-22
+Matisyahu,Music,Solo Artist,"Rock, Hip Hop",Vocals,active,no,yes,completed,250,2025-04-04,47,34,4850,6800,13,28,2025-04-29,2026-02-03
+Matt Walst,Music,Three Days Grace,Rock,"Guitar, Vocals",active,no,yes,completed,60,2023-06-07,60,53,3050,3470,6,26,2023-11-13,2026-04-09
+Matty Mullins,Music,Memphis May Fire,Rock,Vocals,active,no,yes,completed,60,2024-03-26,2,1,60,120,1,2,2024-06-08,2024-06-08
+Melissa Bonny,Music,Ad Infinitum,Metal,Vocals,active,no,yes,completed,60,2024-02-29,17,15,875,995,2,12,2024-04-21,2025-07-13
+Michael Angelo Batio,Music,Manowar,Metal,Guitar,active,no,yes,completed,75,2023-11-21,3,1,45,245,2,3,2024-01-28,2024-07-21
+Michael Sweet,Music,Stryper,"Rock, Metal","Guitar, Vocals",active,no,yes,completed,125,2025-02-12,27,24,3480,3905,3,21,2025-04-19,2026-05-28
+Monte Pittman,Music,"Madonna, Ministry","Rock, Metal","Guitar, Vocals",active,no,yes,completed,60,2024-05-21,0,0,0,0,0,0,,
+Montell Jordan,Music,Solo Artist,Hip Hop,Vocals,active,no,yes,completed,250,2025-01-29,0,0,0,0,0,0,,
+Morgan Rose,Music,Sevendust,Metal,Drums,active,no,yes,completed,110,2024-03-21,28,26,2965,3185,2,17,2024-04-09,2025-12-27
+Nathaniel Murphy,Music,Solo Artist,Rock,Guitar,active,no,yes,completed,100,2025-03-07,0,0,0,0,0,0,,
+Neil Sanderson,Music,Three Days Grace,Rock,Drums,active,no,yes,completed,60,2023-06-07,10,8,460,560,2,9,2023-10-25,2024-09-19
+Nick Buda,Music,Kenny Chesney,"Rock, Country",Drums,active,no,yes,completed,100,2024-01-09,1,1,100,100,0,1,2025-09-24,2025-09-24
+Nick Perri,Music,Nick Perri & The Underground Thieves,Rock,Guitar,active,no,yes,completed,55,2025-03-17,2,2,110,110,0,1,2025-05-01,2025-05-01
+Orianthi,Music,"Michael Jackson, Alice Cooper",Rock,"Guitar, Vocals",active,no,yes,inProgress,130,2023-06-27,0,0,0,0,0,0,,
+Peter Noone,Music,Hermanâ€™s Hermits Starring Peter Noone,Rock,"Guitar, Vocals, Keys",active,no,yes,completed,100,2025-03-06,13,13,1700,1700,0,12,2025-05-19,2025-06-14
+Phil Demmel,Music,"Kerry King, Category 7, Machine Head, Vio-Lence",Metal,Guitar,active,no,yes,completed,95,2023-06-07,21,14,1285,1950,7,14,2023-09-06,2025-09-14
+Phil Manansala,Music,Of Mice & Men,Metal,Guitar,active,no,yes,completed,85,2024-11-14,1,1,85,85,0,1,2024-12-20,2024-12-20
+Phil X,Music,Bon Jovi,Rock,Guitar,active,no,yes,completed,175,2023-08-28,4,0,0,1300,4,4,2023-12-19,2024-03-07
+Pierre Bouvier,Music,Simple Plan,Rock,Vocals,active,no,yes,completed,200,2024-02-19,17,16,2400,2500,1,17,2024-03-19,2024-03-20
+RA Diaz,Music,Korn,"Rock, Metal, Hip Hop, Other",Bass,active,no,yes,completed,130,2024-02-01,25,21,2455,2995,4,15,2024-02-05,2026-03-26
+Rachel Bolan,Music,Skid Row,Metal,Bass,active,yes,yes,completed,115,2024-01-25,13,7,820,1495,5,13,2024-02-20,2025-12-20
+Reggie Watts,Music,Solo Artist,Hip Hop,"Vocals, Keys",active,no,yes,completed,123,2025-03-13,1,1,123,123,0,1,2025-05-12,2025-05-12
+Rich Redmond,Music,Jason Aldean,Rock,Drums,active,no,no,inProgress,0,2023-11-27,0,0,0,0,0,0,,
+Ricky Armellino,Music,Ice Nine Kills,Metal,Guitar,active,yes,yes,completed,75,2024-02-23,15,13,975,1125,2,12,2024-08-15,2026-01-09
+Rikki Thrash,Music,Steel Panther,Rock,Bass,active,yes,yes,completed,51.98,2024-01-08,14,13,597.74,597.74,0,6,2024-02-27,2025-07-16
+Rob Caggiano,Music,Solo Artist,Rock,Guitar,active,no,yes,completed,45,2024-12-10,5,5,200,200,0,5,2025-01-09,2025-05-24
+Robin Finck,Music,Guitar,Rock,Guitar,active,no,yes,completed,150,2023-10-11,75,70,9450,10000,4,41,2023-10-22,2026-05-03
+Ronn Moss,Music,Solo Artist,Rock,"Guitar, Drums, Bass",active,no,yes,completed,99,2025-03-18,0,0,0,0,0,0,,
+Rudy Sarzo,Music,Quiet Riot,"Rock, Metal",Bass,active,no,yes,completed,75,2023-12-05,13,13,1100,1100,0,12,2024-01-13,2025-11-26
+Ryan Meyer,Music,Highly Suspect,Rock,Drums,active,no,yes,completed,55,2025-06-25,12,12,620,620,0,6,2025-07-12,2025-12-26
+Ryan Neff,Music,Miss May I,Metal,Bass,active,no,yes,completed,60,2025-02-10,1,1,60,60,0,1,2025-04-26,2025-04-26
+Sage Weeber,Music,Point North,"Rock, Hip Hop, Other",Drums,active,no,yes,completed,100,2024-01-23,0,0,0,0,0,0,,
+"Sam ""Bam"" Koltun",Music,"Dorothy, Faster Pussycat",Rock,Guitar,active,no,yes,completed,40,2025-09-12,0,0,0,0,0,0,,
+Sammy Arriaga,Music,Solo Artist,Country,"Guitar, Vocals",active,no,yes,completed,50,2025-01-08,0,0,0,0,0,0,,
+Samuel Larsen,Music,Solo Artist,"Rock, Other","Guitar, Drums, Vocals",active,no,no,inProgress,0,2025-03-14,0,0,0,0,0,0,,
+Sean Stemaly,Music,Solo Artist,Country,Vocals,active,no,yes,completed,50,2025-03-31,0,0,0,0,0,0,,
+Shaun Foist,Music,Solo Artist,Rock,Drums,active,no,yes,completed,115,2023-06-08,34,31,3500,3855,3,15,2023-10-17,2025-12-22
+Simon Curtis,Music,Solo Artist,Other,Vocals,active,no,yes,completed,50,2025-04-08,0,0,0,0,0,0,,
+Skyler Acord,Music,Solo Artist,"Metal, Other",Bass,active,no,no,inProgress,0,2025-03-21,0,0,0,0,0,0,,
+Snake Sabo,Music,Skid Row,Metal,Guitar,active,no,yes,completed,90,2024-04-03,31,30,1955,2035,1,6,2024-05-25,2025-08-28
+Sophie Lloyd,Music,Machine Gun Kelly,"Rock, Metal",Guitar,active,no,no,inProgress,0,2025-03-07,0,0,0,0,0,0,,
+Stacey David Blades,Music,Stacey David Blades ,"Rock, Metal",Guitar,active,no,yes,completed,45,2025-11-20,0,0,0,0,0,0,,
+Steve Di Giorgio,Music,"Testament, Death",Metal,Bass,active,no,yes,completed,50,2024-01-22,17,15,730,830,2,8,2024-04-29,2026-01-10
+Steve Souza,Music,Solo Artist,Metal,Vocals,active,no,yes,completed,80,2023-10-16,30,28,2350,2530,2,13,2023-10-25,2025-04-05
+Steven Jones,Music,Bleed From Within,Metal,"Guitar, Vocals",active,no,yes,completed,50,2024-07-01,1,1,50,50,0,1,2025-04-24,2025-04-24
+Stuart Braithwaite,Music,Mogwai,Rock,Guitar,active,no,yes,completed,100,2023-08-24,6,6,480,480,0,4,2023-09-05,2025-09-13
+Tanner Wayne,Music,In Flames (fmr.),Metal,Drums,active,no,yes,completed,60,2023-06-08,1,1,60,60,0,1,2024-02-22,2024-02-22
+Tanya O'Callaghan,Music,"Whitesnake, Bruce Dickinson, Dee Snider",Rock,Bass,active,no,no,inProgress,0,2024-02-12,0,0,0,0,0,0,,
+Ted Aguilar,Music,Death Angel,"Rock, Metal",Guitar,active,no,yes,completed,50,2023-08-22,21,19,900,1000,2,6,2023-10-21,2026-04-01
+Telle Smith,Music,The Word Alive,"Rock, Metal","Guitar, Bass, Vocals",active,no,yes,completed,60,2025-04-07,0,0,0,0,0,0,,
+Tim Lambesis,Music,As I Lay Dying,Metal,Vocals,active,no,yes,completed,100,2024-02-09,0,0,0,0,0,0,,
+Tommy London,Music,Solo Artist,Rock,Vocals,active,no,yes,completed,50,2025-02-20,3,2,100,150,1,2,2025-03-21,2025-03-22
+Travis Clark,Music,We the Kings,Rock,Vocals,active,no,no,inProgress,0,2024-04-12,0,0,0,0,0,0,,
+Travis Stever,Music,"Coheed and Cambria, L.S. Dunes",Rock,Guitar,active,no,yes,completed,100,2024-01-25,17,17,1550,1550,0,17,2024-03-20,2025-01-15
+Trev Lukather,Music,The Effect,"Rock, Other",Guitar,active,no,yes,completed,75,2024-01-22,7,6,450,550,1,4,2024-08-02,2025-12-28
+Trey Hensley,Music,Solo Artist,Country,"Guitar, Vocals",active,no,yes,completed,50,2025-02-26,0,0,0,0,0,0,,
+Tristan Evans,Music,The Vamps,Rock,Drums,active,no,yes,completed,100,2024-10-28,5,4,390,490,1,4,2025-10-25,2026-05-09
+Tyler Rich,Music,Solo Artist,Country,"Guitar, Vocals",active,no,yes,completed,75,2025-04-08,12,11,815,890,1,5,2025-05-10,2026-04-15
+Violet Orlandi,Music,Solo Artist,"Rock, Metal",Vocals,active,no,yes,completed,90,2025-02-19,2,2,180,180,0,1,2026-03-02,2026-03-02
+Wayne Lozinak,Music,Hatebreed,Metal,Guitar,active,no,yes,completed,40,2024-08-30,1,1,40,40,0,1,2024-09-19,2024-09-19
+Will Brennan,Music,Robot Monster,Rock,Guitar,active,no,yes,completed,75,2023-11-27,0,0,0,0,0,0,,
+Will Carroll,Music,Death Angel,Metal,Drums,active,no,yes,completed,45,2023-09-15,6,6,300,300,0,5,2023-11-30,2025-09-29
+Will Ferri,Music,Against The Current,Rock,"Guitar, Drums, Bass",active,no,yes,completed,50,2025-02-26,6,4,200,300,2,2,2026-01-17,2026-02-28
+Matt Heafy,Music,Trivium,Metal,Vocals,notActive,no,no,completed,150,2023-09-15,20,19,2710,2860,1,18,2023-10-02,2024-07-15
+Brandon Ellis,Music,The Black Dahlia Murder,Metal,Guitar,active,no,yes,completed,100,2023-09-15,14,12,1275,1450,2,11,2023-09-27,2026-02-15
+Pete Webber,Music,"Fear Factory, Havok",Metal,Drums,active,no,yes,completed,20,2023-09-15,5,5,95,95,0,4,2023-09-20,2025-06-14
+Doc Coyle,Music,God Forbid,Metal,"Guitar, Vocals",notActive,no,no,completed,60,2025-09-15,1,1,50,50,0,1,2025-01-31,2025-01-31
+Clint Lowery,Music,"Guitar, Vocals",Metal,"Guitar, Vocals",active,no,no,completed,75,2025-09-15,29,28,2075,2150,1,22,2024-03-25,2024-07-12
+Courtney Cox,Music,BURNING WITCHES,Metal,Guitar,active,no,yes,completed,60,2025-09-15,11,11,660,660,0,9,2025-12-28,2026-02-28
+Moshe Reuven,Music,Solo Artist,Hip Hop,"Guitar, Vocalss",active,no,yes,completed,120,2025-09-15,0,0,0,0,0,0,,
+Leah Kate,Music,Solo Artist,Rock,Vocals,active,no,no,inProgress,0,2026-01-05,0,0,0,0,0,0,,
+Brooke Candy,Music,Solo Artist,"Hip-Hop, Other",Vocals,active,no,,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Nathan Morris,Music,Solo Artist,Other,Vocals,active,no,,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Austin Burke,Music,Solo Artist,Country,Vocals,active,no,,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Dan Smalley,Music,Solo Artist,Country,Vocals,active,no,no,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Ed Kowalczyk,Music,LIVE,Rock,Vocals,active,no,,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Robin Diaz,Music,Solo Artist,Rock,Drums,active,no,,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Dave Krusen,Music,Pearl Jam (fmr.),Rock,Drums,active,no,,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Miles Schon,Music,Solo Artist,"Rock, Other",Guitar,active,no,,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Frank Ferrer,Music,"The Compulsions, PSSR",Rock,Drums,active,no,no,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Zach Dubay,Music,Solo Artist,"Rock, Other",Drums,active,no,,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Eliott Van Brabandt,Music,Solo Artist,"Rock, Metal",Drums,active,no,,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Jonah Marais,Music,Solo Artist,"Rock, Other",Vocals,active,no,,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Shane Gann,Music,Hail the Sun,Rock,Guitar,active,no,,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Justin Tessier,Music,The Blue Stones,Rock,Drums,active,no,,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Dorothy,Music,DOROTHY,Rock,Vocals,active,no,,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Max Lavelle,Music,The Black Dahlia Murder,Metal,Guitar,active,no,,inProgress,0,2025-03-04,0,0,0,0,0,0,,
+Johnny Rabb,Music,Collective Soul,"Rock, Other",Drums,notActive,,,,0,2025-03-04,0,0,0,0,0,0,,
+Andy McKee,Music,Solo Artist,Other,Guitar,notActive,,,,0,2025-03-04,0,0,0,0,0,0,,
+Mohini Dey,Music,,"Rock, Other",Guitar,notActive,,,,0,2025-03-04,0,0,0,0,0,0,,
+Tyler Heineman,Sports,Toronto Blue Jays,MLB,Baseball,active,no,yes,completed,200,2026-02-05,0,0,0,0,0,0,,
+Doug Gilmour,Sports,Toronto Maple Leafs,NHL,Hockey,active,no,yes,completed,250,2026-02-09,0,0,0,0,0,0,,
+Danielle Sophia,Music,BLUE MEDUSA,Metal,Guitar,active,yes,yes,completed,50,2026-02-13,0,0,0,0,0,0,,
+Tim Foust,Music,Home Free,Country,Vocals,active,no,yes,inProgress,175,2026-02-19,3,2,350,525,1,2,2026-05-09,2026-05-19
+Liv McGill,Sports,Florida Gators,NCAA Basketball,Basketball,active,no,no,inProgress,80,2026-02-23,0,0,0,0,0,0,,
+Nathan Aurora,Music,Aurorawave,Pop,"Guitar, Vocals",active,no,yes,completed,100,2026-03-06,0,0,0,0,0,0,,
+Metta World Peace,Sports,Los Angeles Lakers,NBA,Basketball,active,no,yes,completed,350,2026-03-26,0,0,0,0,0,0,,
+Jake Segura,Music,Citizen Soldier,"Rock, Metal",Vocals,active,no,yes,inProgress,75,2026-04-07,0,0,0,0,0,0,,
+Sean Avery,Sports,New York Rangers,Hockey,NHL,active,no,yes,completed,150,2026-04-13,0,0,0,0,0,0,,
+Dave Fortman,Music,Ugly Kid Joe,"Rock, Metal",Guitar,active,no,yes,inProgress,50,2026-04-13,0,0,0,0,0,0,,
+Dez Fafara,Music,"Coal Chamber, DevilDriver",Metal,Vocals,active,no,yes,inProgress,135,2026-04-14,0,0,0,0,0,0,,
+Conrad Anker,Sports,Alpinist,Mountain Sports,Mountaineer,active,no,no,inProgress,300,2026-04-20,0,0,0,0,0,0,,
+Sara Hall,Sports,,Marathon,Marathon,notActive,no,no,inProgress,0,2026-04-21,0,0,0,0,0,0,,
+Antonio Cromartie,Sports,New York Jets,Football,NFL,active,no,yes,completed,150,2026-04-21,0,0,0,0,0,0,,
+Darryl Strawberry,Sports,New York Mets,Baseball,MLB,notActive,,no,inProgress,318,2026-04-22,0,0,0,0,0,0,,
+Heikki Kovalainen,Sports,McLaren,Motorsports,F1,active,no,yes,completed,80,2026-04-23,0,0,0,0,0,0,,
+Jake 'the Snake' Roberts,Sports,Pro Wrestler,Wrestling,WWE,active,no,yes,completed,300,2026-04-29,0,0,0,0,0,0,,
+Nathan James,Music,Artist,Metal,Vocals,active,no,yes,completed,140,2026-04-30,0,0,0,0,0,0,,
+Terrance Williams,Sports,Dallas Cowboys,Football,NFL,active,yes,yes,completed,250,2026-05-01,0,0,0,0,0,0,,
+Lexi Thompson,Sports,Pro Golfer,Golf,LPGA ,active,no,yes,completed,300,2026-05-01,0,0,0,0,0,0,,
+Daunte Culpepper,Sports,Minnesota Vikings,Football,NFL,active,no,yes,completed,150,2026-05-01,0,0,0,0,0,0,,
+Shawne Merriman,Sports,San Diego Chargers,Football,NFL,active,no,yes,completed,400,2026-05-01,0,0,0,0,0,0,,
+Eddie Lacy,Sports,Green Bay Packers,Football,NFL,active,no,yes,completed,160,2026-05-01,0,0,0,0,0,0,,
+Josh Butler,Sports,Dallas Cowboys,Football,NFL,active,no,yes,completed,100,2026-05-01,0,0,0,0,0,0,,
+Forrest Griffin,Sports,Mixed Martial Artist,Mixed Martial Arts,UFC,active,no,yes,completed,100,2026-05-01,0,0,0,0,0,0,,
+Victor Ortiz,Sports,Pro Boxer,Boxing,WBC,active,no,yes,completed,100,2026-05-01,0,0,0,0,0,0,,
+Paul Wight (fmr. Big Show),Sports,Pro Wrestler,Wrestling,AWE,notActive,,,inProgress,450,2026-05-01,0,0,0,0,0,0,,
+Piggy D.,Music,Marilyn Manson,"Rock, Metal",Bass,active,no,yes,inProgress,65,2026-05-01,0,0,0,0,0,0,,
+John Rocker,Sports,Atlanta Braves,Baseball,MLB,notActive,,,inProgress,0,2026-05-01,0,0,0,0,0,0,,
+Davin Glover,Music,Guitar,"Hip Hop, Metal, Rock",Artist,active,no,yes,completed,70,2026-05-01,0,0,0,0,0,0,,
+Dan Estrin,Music,Hoobastank,"Rock, Metal",Guitar,notActive,,,inProgress,0,2026-05-01,0,0,0,0,0,0,,
+Adam Pacman Jones,Sports,Cincinnati Bengals,Football,NFL,active,no,yes,completed,400,2026-05-04,0,0,0,0,0,0,,
+TJ Lavin,Sports,Pro BMX Rider,Cycle Sports,BMX,active,no,yes,completed,450,2026-05-04,0,0,0,0,0,0,,
+Yohan Blake,Sports,Track and Field,Track and Field,Olympics,active,no,yes,completed,300,2026-05-04,0,0,0,0,0,0,,
+Marcus Trufant,Sports,Seattle Seahawks,Football,NFL,active,no,yes,completed,400,2026-05-07,0,0,0,0,0,0,,
+Rennae Stubbs,Sports,Pro Tennis Player,Tennis,Olympics,active,no,yes,completed,80,2026-05-07,0,0,0,0,0,0,,
+Urijah Faber,Sports,Mixed Martial Artist,Mixed Martial Arts,UFC,notActive,,no,inProgress,450,2026-05-07,0,0,0,0,0,0,,
+Jonathan Coachman,Sports,Pro Wrestler,Wrestling,WWE,active,no,yes,completed,200,2026-05-07,0,0,0,0,0,0,,
+Scott Steiner,Sports,Pro Wrestler,Wrestling,WCW,active,no,yes,completed,300,2026-05-08,0,0,0,0,0,0,,
+Liz Carmouche,Sports,Mixed Martial Artist,Mixed Martial Arts,UFC,active,yes,yes,completed,70,2026-05-11,0,0,0,0,0,0,,
+Corinna Dentoni,Sports,Pro Tennis Player,Tennis,WTA,active,no,yes,completed,100,2026-05-11,0,0,0,0,0,0,,
+Cory Nastazio,Sports,Pro BMX Rider,Cycle Sports,BMX,active,no,yes,completed,120,2026-05-12,0,0,0,0,0,0,,
+Taylor Twellman,Sports,Pro Soccer Player,Soccer,MLS,notActive,,no,inProgress,175,2026-05-12,0,0,0,0,0,0,,
+Mike O'Hearn,Sports,Pro Bodybuilder,Bodybuilding,INBA,active,no,no,inProgress,200,2026-05-12,0,0,0,0,0,0,,
+Christian Fuchs,Sports,Leicester City,Soccer,Premier League,notActive,no,no,inProgress,175,2026-05-13,0,0,0,0,0,0,,
+Louie Vito,Sports,Pro Snowboarder,Snowboarding,Olympics,active,yes,yes,completed,70,2026-05-13,0,0,0,0,0,0,,
+Jules Heningburg,Sports,Boston Cannons,Lacrosse,PLL,active,no,no,inProgress,100,2026-05-19,0,0,0,0,0,0,,
+Dwayne Bowe,Sports,Kansas City Chiefs,Football,NFL,active,no,yes,completed,150,2026-05-20,0,0,0,0,0,0,,
+Darren McCarty,Sports,Detroit Red Wings,Hockey,NHL,active,no,yes,inProgress,150,2026-05-27,0,0,0,0,0,0,,
+Byron Scott,Sports,Los Angeles Lakers,NBA,Basketball,active,no,yes,completed,300,2026-05-27,0,0,0,0,0,0,,
+Sugar Ray Leonard,Sports,Pro Boxer,Pro Boxing,WBC,active,no,no,inProgress,475,2026-05-27,0,0,0,0,0,0,,
+James Nicholas,Sports,Pro Golfer,Golf,PGA,active,no,,inProgress,0,2026-05-27,0,0,0,0,0,0,,
+Jeff Jarrett,Sports,Pro Wrestler,Wrestling,WWE,active,no,,inProgress,0,2026-05-27,0,0,0,0,0,0,,
+Luke Kirilenko,Sports,Wake Forest Demon Deacons,Soccer,NCAA,active,no,no,inProgress,50,2026-06-03,0,0,0,0,0,0,,
+Gary Sheffield,Sports,New York Yankees,Baseball,MLB,active,no,no,inProgress,350,2026-06-05,0,0,0,0,0,0,,
