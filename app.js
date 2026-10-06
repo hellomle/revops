@@ -527,7 +527,7 @@ let DEFAULT_WAITLIST = [{"coreTalent":"Ace Von Johnson","fan":"Lauren Bell","fan
 
   function renderBookings(data) {
     const rows = [...data].sort((a, b) => String(b.date).localeCompare(String(a.date))).slice(0, 12);
-    $("bookingRows").innerHTML = rows.map((r) => `<tr><td>${esc(r.date)}</td><td><b>${esc(r.talent)}</b></td><td>${esc(r.category)}</td><td>${money(r.price)}</td><td>${pill(r.status)}</td></tr>`).join("") || `<tr><td colspan="5">No bookings</td></tr>`;
+    $("bookingRows").innerHTML = rows.map((r) => `<tr><td>${esc(r.date)}</td><td><b>${esc(r.talent)}</b></td><td>${esc(r.category)}</td><td>${money(r.priceTalent)}</td><td>${r.isComped ? "Yes" : "No"}</td><td>${pill(r.status)}</td></tr>`).join("") || `<tr><td colspan="6">No bookings</td></tr>`;
   }
 
   function renderReadout(data) {
