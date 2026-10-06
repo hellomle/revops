@@ -23,7 +23,7 @@ let DEFAULT_WAITLIST = [{"coreTalent":"Ace Von Johnson","fan":"Lauren Bell","fan
     sortTalentDir: "desc",
   };
 
-  const bookingRequired = ["coreTalent", "priceFinal", "primaryGuest", "status"];
+  const bookingRequired = ["coreTalent", "primaryGuest", "status"];
   const talentRequired = ["name", "category", "categoryOrg", "categoryStyle", "categorySub", "accountStatus", "isAvailable", "isLive", "onboardingStatus", "price", "createdDate"];
   const waitlistRequired = ["coreTalent", "fanEmail", "status", "Creation Date"];
 
@@ -201,8 +201,8 @@ let DEFAULT_WAITLIST = [{"coreTalent":"Ace Von Johnson","fan":"Lauren Bell","fan
     const talentName = txt(row.coreTalent ?? row.talent, "Unknown Talent");
     const t = talentMap.get(norm(talentName));
     const status = txt(row.status, "Unknown");
-    const comped = txt(row.priceComped ?? row.comped, "no");
-    const price = num(row.priceFinal ?? row.price);
+    const comped = txt(row.PriceComp ?? row.priceComp ?? row.priceComped ?? row.comped, "no");
+    const price = num(row.PriceFinal ?? row.priceFinal ?? row.price);
     const priceTalent = num(row.PriceTalent ?? row.priceTalent ?? row.price_talent ?? row.talentPrice ?? row.talent_price ?? t?.price);
     const bookingDate = firstValue(row.date, row.timeTalent01Start, row.timeFan03StartDisplay, row.timeTalent03StartDisplay);
     return {
@@ -213,13 +213,13 @@ let DEFAULT_WAITLIST = [{"coreTalent":"Ace Von Johnson","fan":"Lauren Bell","fan
       state: txt(row.geoState ?? row.state, "Unknown"),
       region: regionForCountry(row.geoCountry ?? row.country),
       comped,
-      discount: num(row.priceDiscount ?? row.discount),
+      discount: num(row.PriceDiscount ?? row.priceDiscount ?? row.discount),
       price,
       priceTalent,
       guest: txt(row.primaryGuest ?? row.guest, "Unknown Guest"),
       guestKey: norm(row.primaryGuest ?? row.guest),
       status,
-      isComped: norm(comped) === "yes",
+      isComped: ["yes", "true", "1", "y"].includes(norm(comped)),
       isRefund: norm(status).includes("refund"),
       category: t?.category || txt(row.category, "Unknown"),
       categoryOrg: t?.categoryOrg || txt(row.categoryOrg, "Unknown"),
