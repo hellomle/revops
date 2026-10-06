@@ -35,3 +35,32 @@ You can update data in two ways:
 2. Use the in-page Data Manager to upload `bookings.csv`, `talent.csv`, or `waitlist.csv`.
 
 Uploaded CSVs are stored in the browser and override the defaults until you click `Reset to default data`.
+
+## Booking export field logic
+
+The dashboard supports the future bookings format:
+
+- `PriceFinal` = paid booking revenue source
+- `PriceComp` = comp flag; use `Yes` for comp bookings
+- `PriceTalent` = comp booking value source when `PriceComp = Yes`
+- `geoCity`, `geoState`, `geoCountry` = purchaser geography fields
+
+Fallbacks are also supported for older exports:
+
+- `priceFinal` or `price`
+- `priceComp`, `priceComped`, or `comped`
+- `priceTalent`, `talentPrice`, or the talent master `price`
+- `city`, `state`, or `country`
+
+Comp rate is calculated as:
+
+```text
+comp bookings / (paid bookings + comp bookings)
+```
+
+Comp value is calculated as:
+
+```text
+sum PriceTalent where PriceComp = Yes
+```
+
