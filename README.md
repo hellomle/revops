@@ -63,4 +63,13 @@ Comp value is calculated as:
 ```text
 sum PriceTalent where PriceComp = Yes
 ```
+## Avg Intro Value logic
+
+`Avg Intro Value` is calculated as:
+
+```text
+average PriceTalent where PriceComp / priceComped = No
+```
+
+This is separate from `Est. Intro Revenue`, which remains 25% of paid revenue.
 
