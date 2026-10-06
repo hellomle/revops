@@ -85,6 +85,10 @@ let DEFAULT_WAITLIST = [{"coreTalent":"Ace Von Johnson","fan":"Lauren Bell","fan
   const sum = (arr, fn) => arr.reduce((acc, row) => acc + num(fn(row)), 0);
   const uniq = (arr, fn) => new Set(arr.map(fn).filter(Boolean));
   const isPaid = (r) => !r.isComped && !r.isRefund && num(r.price) > 0;
+  const isComp = (r) => r.isComped && !r.isRefund;
+  const paidValue = (r) => isPaid(r) ? num(r.price) : 0;
+  const compValue = (r) => isComp(r) ? num(r.priceTalent) : 0;
+  const totalBookingValue = (r) => paidValue(r) + compValue(r);
 
   function regionForCountry(country) {
     const c = norm(country);
@@ -199,6 +203,7 @@ let DEFAULT_WAITLIST = [{"coreTalent":"Ace Von Johnson","fan":"Lauren Bell","fan
     const status = txt(row.status, "Unknown");
     const comped = txt(row.priceComped ?? row.comped, "no");
     const price = num(row.priceFinal ?? row.price);
+    const priceTalent = num(row.PriceTalent ?? row.priceTalent ?? row.price_talent ?? row.talentPrice ?? row.talent_price ?? t?.price);
     const bookingDate = firstValue(row.date, row.timeTalent01Start, row.timeFan03StartDisplay, row.timeTalent03StartDisplay);
     return {
       talent: talentName,
@@ -210,6 +215,7 @@ let DEFAULT_WAITLIST = [{"coreTalent":"Ace Von Johnson","fan":"Lauren Bell","fan
       comped,
       discount: num(row.priceDiscount ?? row.discount),
       price,
+      priceTalent,
       guest: txt(row.primaryGuest ?? row.guest, "Unknown Guest"),
       guestKey: norm(row.primaryGuest ?? row.guest),
       status,
@@ -441,13 +447,24 @@ let DEFAULT_WAITLIST = [{"coreTalent":"Ace Von Johnson","fan":"Lauren Bell","fan
   function renderRevOps() {
     const data = getFilteredBookings();
     const paid = data.filter(isPaid);
+    const comp = data.filter(isComp);
     const paidRev = sum(paid, (r) => r.price);
+    const compRev = sum(comp, (r) => r.priceTalent);
+    const totalValue = paidRev + compRev;
+    const totalCount = paid.length + comp.length;
     const guestRows = data.filter((r) => r.guestKey);
     const repeatGuests = [...groupBy(guestRows, (r) => r.guestKey).values()].filter((rows) => rows.length >= 2).length;
+    kpi("kTotalBookingValue", money(totalValue));
+    kpi("kTotalBookingCount", `${int(totalCount)} total paid + comp bookings`);
     kpi("kPaidRevenue", money(paidRev));
+    kpi("kPaidBookingCount", `${int(paid.length)} paid bookings · avg ${money(paid.length ? paidRev / paid.length : 0)}`);
+    kpi("kCompRevenue", money(compRev));
+    kpi("kCompBookingCount", `${int(comp.length)} comp bookings · value uses PriceTalent`);
     kpi("kIntroRevenue", money(paidRev * TAKE_RATE));
-    kpi("kPaidBookings", int(paid.length));
-    kpi("kAvgPaid", money(paid.length ? paidRev / paid.length : 0));
+    kpi("kAvgIntroValue", money(paid.length ? (paidRev * TAKE_RATE) / paid.length : 0));
+    kpi("kPaidMix", pct(totalCount ? paid.length / totalCount : 0));
+    kpi("kCompRate", pct(totalCount ? comp.length / totalCount : 0));
+    kpi("kAvgCompValue", money(comp.length ? compRev / comp.length : 0));
     kpi("kMusicRev", money(sum(paid.filter((r) => r.category === "Music"), (r) => r.price)));
     kpi("kSportsRev", money(sum(paid.filter((r) => r.category === "Sports"), (r) => r.price)));
     kpi("kUniqueGuests", int(uniq(guestRows, (r) => r.guestKey).size));
@@ -479,10 +496,12 @@ let DEFAULT_WAITLIST = [{"coreTalent":"Ace Von Johnson","fan":"Lauren Bell","fan
 
   function renderRevTalentTable(data) {
     const rows = [...groupBy(data, (r) => r.talent).entries()].map(([name, rows]) => {
-      const paid = rows.filter(isPaid); const rev = sum(paid, (r) => r.price);
-      return { name, cat: rows[0]?.category, style: rows[0]?.categoryStyle, rev, intro: rev * TAKE_RATE, paid: paid.length, avg: paid.length ? rev / paid.length : 0 };
+      const paid = rows.filter(isPaid);
+      const comp = rows.filter(isComp);
+      const rev = sum(paid, (r) => r.price);
+      return { name, cat: rows[0]?.category, style: rows[0]?.categoryStyle, rev, intro: rev * TAKE_RATE, paid: paid.length, avg: paid.length ? rev / paid.length : 0, comp: comp.length };
     }).sort((a, b) => b.rev - a.rev).slice(0, 20);
-    $("revTalentRows").innerHTML = rows.map((r) => `<tr><td><b>${esc(r.name)}</b></td><td>${esc(r.cat)}</td><td>${esc(r.style)}</td><td>${money(r.rev)}</td><td>${money(r.intro)}</td><td>${int(r.paid)}</td><td>${money(r.avg)}</td></tr>`).join("") || `<tr><td colspan="7">No data</td></tr>`;
+    $("revTalentRows").innerHTML = rows.map((r) => `<tr><td><b>${esc(r.name)}</b></td><td>${esc(r.cat)}</td><td>${esc(r.style)}</td><td>${money(r.rev)}</td><td>${money(r.intro)}</td><td>${int(r.paid)}</td><td>${money(r.avg)}</td><td>${int(r.comp)}</td></tr>`).join("") || `<tr><td colspan="8">No data</td></tr>`;
   }
 
   function renderGuests(data) {
@@ -495,8 +514,8 @@ let DEFAULT_WAITLIST = [{"coreTalent":"Ace Von Johnson","fan":"Lauren Bell","fan
   }
 
   function renderDiscounts(data) {
-    const comp = data.filter((r) => r.isComped), disc = data.filter((r) => r.discount > 0), refunds = data.filter((r) => r.isRefund);
-    $("discountWatch").innerHTML = `<div class="barrow"><div class="mini"><b>Comped rows</b></div><div class="bar"><div class="fill" style="width:${data.length ? comp.length / data.length * 100 : 0}%"></div></div><div class="mini">${int(comp.length)}</div></div><div class="mini">Comped face value: <b>${money(sum(comp, (r) => r.price))}</b></div><br><div class="barrow"><div class="mini"><b>Discounted rows</b></div><div class="bar"><div class="fill2" style="width:${data.length ? disc.length / data.length * 100 : 0}%"></div></div><div class="mini">${int(disc.length)}</div></div><div class="mini">Discount value in file: <b>${money(sum(disc, (r) => r.discount))}</b></div><br><div class="mini">Refund rows: <b>${int(refunds.length)}</b> · Refund row value: <b>${money(sum(refunds, (r) => r.price))}</b></div>`;
+    const comp = data.filter(isComp), disc = data.filter((r) => r.discount > 0), refunds = data.filter((r) => r.isRefund);
+    $("discountWatch").innerHTML = `<div class="barrow"><div class="mini"><b>Comped rows</b></div><div class="bar"><div class="fill" style="width:${data.length ? comp.length / data.length * 100 : 0}%"></div></div><div class="mini">${int(comp.length)}</div></div><div class="mini">Comp value using PriceTalent: <b>${money(sum(comp, (r) => r.priceTalent))}</b></div><br><div class="barrow"><div class="mini"><b>Discounted rows</b></div><div class="bar"><div class="fill2" style="width:${data.length ? disc.length / data.length * 100 : 0}%"></div></div><div class="mini">${int(disc.length)}</div></div><div class="mini">Discount value in file: <b>${money(sum(disc, (r) => r.discount))}</b></div><br><div class="mini">Refund rows: <b>${int(refunds.length)}</b> · Refund row value: <b>${money(sum(refunds, (r) => r.price))}</b></div>`;
   }
 
   function renderBookings(data) {
@@ -505,11 +524,12 @@ let DEFAULT_WAITLIST = [{"coreTalent":"Ace Von Johnson","fan":"Lauren Bell","fan
   }
 
   function renderReadout(data) {
-    const paid = data.filter(isPaid), paidRev = sum(paid, (r) => r.price);
+    const paid = data.filter(isPaid), comp = data.filter(isComp);
+    const paidRev = sum(paid, (r) => r.price), compRev = sum(comp, (r) => r.priceTalent), totalValue = paidRev + compRev;
     const sportsRev = sum(paid.filter((r) => r.category === "Sports"), (r) => r.price);
     const musicRev = sum(paid.filter((r) => r.category === "Music"), (r) => r.price);
     const top = [...groupBy(data, (r) => r.talent).entries()].map(([talent, rows]) => ({ talent, rev: sum(rows.filter(isPaid), (r) => r.price), bookings: rows.filter(isPaid).length })).sort((a, b) => b.rev - a.rev)[0];
-    const bullets = [`<b>${money(paidRev)}</b> paid revenue across <b>${int(paid.length)}</b> paid bookings; estimated Intro revenue is <b>${money(paidRev * TAKE_RATE)}</b>.`, `Music contributed <b>${money(musicRev)}</b>; Sports contributed <b>${money(sportsRev)}</b>.`, top ? `<b>${esc(top.talent)}</b> is the top revenue driver at <b>${money(top.rev)}</b> across <b>${int(top.bookings)}</b> paid bookings.` : "No top talent in the selected filter set."];
+    const bullets = [`<b>${money(totalValue)}</b> total booked value across <b>${int(paid.length + comp.length)}</b> paid + comp bookings.`, `<b>${money(paidRev)}</b> paid revenue across <b>${int(paid.length)}</b> paid bookings; <b>${money(compRev)}</b> comp value across <b>${int(comp.length)}</b> comp bookings.`, `Estimated Intro revenue is <b>${money(paidRev * TAKE_RATE)}</b>, calculated as 25% of paid revenue only.`, `Music contributed <b>${money(musicRev)}</b>; Sports contributed <b>${money(sportsRev)}</b>.`, top ? `<b>${esc(top.talent)}</b> is the top revenue driver at <b>${money(top.rev)}</b> across <b>${int(top.bookings)}</b> paid bookings.` : "No top talent in the selected filter set."];
     $("readout").innerHTML = `<ul>${bullets.map((b) => `<li>${b}</li>`).join("")}</ul>`;
   }
 
