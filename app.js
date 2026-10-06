@@ -461,7 +461,8 @@ let DEFAULT_WAITLIST = [{"coreTalent":"Ace Von Johnson","fan":"Lauren Bell","fan
     kpi("kCompRevenue", money(compRev));
     kpi("kCompBookingCount", `${int(comp.length)} comp bookings · value uses PriceTalent`);
     kpi("kIntroRevenue", money(paidRev * TAKE_RATE));
-    kpi("kAvgIntroValue", money(paid.length ? (paidRev * TAKE_RATE) / paid.length : 0));
+    const nonCompValueRows = data.filter((r) => !r.isComped && !r.isRefund && num(r.priceTalent) > 0);
+    kpi("kAvgIntroValue", money(nonCompValueRows.length ? sum(nonCompValueRows, (r) => r.priceTalent) / nonCompValueRows.length : 0));
     kpi("kPaidMix", pct(totalCount ? paid.length / totalCount : 0));
     kpi("kCompRate", pct(totalCount ? comp.length / totalCount : 0));
     kpi("kAvgCompValue", money(comp.length ? compRev / comp.length : 0));
