@@ -344,6 +344,12 @@ let DEFAULT_WAITLIST = [{"coreTalent":"Ace Von Johnson","fan":"Lauren Bell","fan
     const cat = $("categoryFilter").value;
     populateSelect("styleFilter", state.talent.filter((t) => !cat || t.category === cat).map((t) => t.categoryStyle), "All styles");
   }
+  function setActiveRevRange(kind) {
+    document.querySelectorAll("[data-rev-range]").forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.revRange === kind);
+    });
+  }
+
 
   function setBookingRange(kind) {
     const years = state.bookings.map((r) => parseDate(r.date)).filter(Boolean).map((d) => d.getUTCFullYear());
@@ -357,7 +363,7 @@ let DEFAULT_WAITLIST = [{"coreTalent":"Ace Von Johnson","fan":"Lauren Bell","fan
       const s = new Date(d.getTime() - 90 * 86400000);
       start = iso(s); end = iso(d);
     } else { start = `${kind}-01-01`; end = `${kind}-12-31`; }
-    $("startDate").value = start; $("endDate").value = end; renderRevOps();
+    $("startDate").value = start; $("endDate").value = end; setActiveRevRange(kind);renderRevOps();
   }
 
   function setCreatedRange(kind) {
